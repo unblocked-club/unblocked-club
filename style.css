@@ -99,8 +99,8 @@ nav ul li a{
     text-align: center;
     cursor: pointer;
     size-adjust: 30%;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 15px;
 }
 @keyframes moveup{
