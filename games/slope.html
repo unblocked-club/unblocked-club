@@ -12,18 +12,21 @@
         <img src="images/yoo.jpg" class="logo">
 
         <div>
-            <a href="#" class="btn">Search</a>
+            <a href="../index.html" class="btn">Home</a>
         </div>
         
 
     </nav>
     <div class="content">
-        <h2 class="evanclub">Evans Club 2.0</h2>
+        <h2 class="evanclub">Unblocked Club</h2>
     </div>
     <iframe id="gameFrame" onload="focusGame()" src="https://sciencemathedu.github.io/slope/" style="width: 625px; height: 500px; right: 185px; top: 100px; position: absolute;"></iframe>
     <button class="fullscreen-button" onclick="toggleFullScreen()">Fullscreen</button>
 </div>
 <script>
+      function goToHomePage() {
+    window.location.href = '../index.html';
+}
          function toggleFullScreen() {
       var iframe = document.getElementById('gameFrame');
       if (iframe.requestFullscreen) {
