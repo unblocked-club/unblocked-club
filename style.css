@@ -103,7 +103,7 @@ nav ul li a{
     height: 185px;
     border-radius: 15px;
 }
-.btn:hover{
+.flex-item:hover{
     border-top-right-radius: 30px;
 }
 @keyframes moveup{
