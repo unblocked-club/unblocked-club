@@ -118,6 +118,9 @@ nav ul li a{
     bottom: 20px;
     border: transparent;
 }
+.fullscreen-button:hover{
+    border-top-right-radius: 30px;
+}
 @keyframes moveup{
     100%{
         opacity: 1;
