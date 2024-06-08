@@ -102,6 +102,7 @@ nav ul li a{
     width: 185px;
     height: 185px;
     border-radius: 15px;
+    size: absulote;
 }
 @keyframes moveup{
     100%{
