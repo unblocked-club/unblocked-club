@@ -103,6 +103,7 @@ nav ul li a{
     height: 185px;
     border-radius: 15px;
     border-top-right-radius: 0;
+    transition: 0.5s;
 }
 .flex-item:hover{
     border-top-right-radius: 15px;
