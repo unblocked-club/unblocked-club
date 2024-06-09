@@ -102,11 +102,10 @@ nav ul li a{
     width: 185px;
     height: 185px;
     border-radius: 15px;
-    border-top-right-radius: 0;
     transition: 0.5s;
 }
 .flex-item:hover{
-    border-top-right-radius: 15px;
+    size: 1.25;
 }
 @keyframes moveup{
     100%{
