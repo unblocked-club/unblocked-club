@@ -118,6 +118,11 @@ nav ul li a{
     bottom: 20px;
     border: transparent;
 }
+#gameFrame{
+    display: gameFrame;
+    justify-content: center;
+    align-items: center;
+}
 .fullscreen-button:hover{
     border-top-right-radius: 30px;
 }
