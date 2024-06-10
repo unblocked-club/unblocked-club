@@ -112,7 +112,6 @@ nav ul li a{
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
-    border-bottom-left-radius: 0;
     transition: 0.5s;
     right: 140px;
     position: absolute;
@@ -134,7 +133,6 @@ nav ul li a{
 }
 .fullscreen-button:hover{
     border-top-right-radius: 30px;
-    border-bottom-left-raduis: 30px;
 }
 @keyframes moveup{
     100%{
