@@ -113,15 +113,23 @@ nav ul li a{
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s;
-    right: 187px;
+    right: 140px;
     position: absolute;
-    bottom: 20px;
+    bottom: 63px;
     border: transparent;
 }
-#gameFrame{
-    display: gameFrame;
-    justify-content: center;
-    align-items: center;
+.hero #gameFrame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 73%;
+    height: 73%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 .fullscreen-button:hover{
     border-top-right-radius: 30px;
