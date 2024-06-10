@@ -105,7 +105,7 @@ nav ul li a{
     transition: 0.5s;
 }
 .flex-item:hover{
-    size: 1.25;
+    size-adjust: 10%;
 }
 @keyframes moveup{
     100%{
