@@ -101,6 +101,7 @@ nav ul li a{
     size-adjust: 30%;
     width: 185px;
     height: 185px;
+    border-radius: 15px;
     -webkit-transform: scale(1, 1);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 250ms;
