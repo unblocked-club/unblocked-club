@@ -110,7 +110,6 @@ nav ul li a{
     -moz-transition-duration: 250ms;
 }
 .flex-item:hover{
-.flex-item:hover{
   -webkit-transform: scale(1.05, 1.07);
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 225ms;
