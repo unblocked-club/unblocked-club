@@ -105,8 +105,15 @@ nav ul li a{
     transition: 0.5s;
 }
 .flex-item:hover{
-    size-adjust: 10%;
+.flex-item:hover{
+  -webkit-transform: scale(1.05, 1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 225ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 225ms;
 }
+
 @keyframes moveup{
     100%{
         opacity: 1;
