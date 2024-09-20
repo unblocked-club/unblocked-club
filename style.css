@@ -99,42 +99,25 @@ nav ul li a{
     text-align: center;
     cursor: pointer;
     size-adjust: 30%;
-    width: 150px;
-    height: 150px;
+    width: 185px;
+    height: 185px;
     border-radius: 15px;
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1, 1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
 }
-.fullscreen-button{
-    bottom: 10%;
-    right: 13.85%;
-    position: absolute;
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 20px;
-    color: #fff;
-    background-image: linear-gradient(45deg, #d43030, #0797bb);
-    font-size: 14px;
-    border-radius: 30px;
-    border-top-right-radius: 0;
-    transition: 0.5s;
-    border: transparent;
+.flex-item:hover{
+  -webkit-transform: scale(1.05, 1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 225ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 225ms;
+}
 
-}
-.fullscreen-button:hover{
-    border-top-right-radius: 30px;
-}
-.hero #gameFrame{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -45%);
-    width: 73%;
-    height: 73%;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
 @keyframes moveup{
     100%{
         opacity: 1;
