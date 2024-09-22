@@ -40,6 +40,9 @@ nav ul li a{
     font-weight: 400;
 }
 .btn{
+    top: 5.5%;
+    right: 6.85%;
+    position: absolute;
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
@@ -61,10 +64,9 @@ nav ul li a{
 .content h2{
     font-size: 45px;
     color: #ffffff;
+    top: 4%;
+    right: 26.85%;
     position: absolute;
-    top: 20px;
-    right: 32.5%;
-
 }
 .content p{
     margin: 10px 0 30px;
