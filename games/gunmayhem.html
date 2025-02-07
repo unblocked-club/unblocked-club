@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>1v1.LOL</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1397432253211716"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="hero">
+    <nav>
+        <img src="images/yoo.jpg" class="logo">
+
+        <div>
+            <a href="../index.html" class="btn">Home</a>
+        </div>
+        
+
+    </nav>
+    <div class="content">
+        <h2 class="evanclub">Unblocked Club</h2>
+    </div>
+    <iframe id="gameFrame" onload="focusGame()" src="https://htmlxm.github.io/h7/gun-mayhem/" ></iframe>
+    <button class="fullscreen-button" onclick="toggleFullScreen()">Fullscreen</button>
+</div>
+<script>
+         function toggleFullScreen() {
+      var iframe = document.getElementById('gameFrame');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) { /* Firefox */
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) { /* IE/Edge */
+        iframe.msRequestFullscreen();
+      }
+      // Focus the iframe after entering fullscreen
+      iframe.focus();
+    }
+     function focusGame() {
+      var iframe = document.getElementById('gameFrame');
+      iframe.focus();
+    }
+    function goToHomePage() {
+    window.location.href = '../';
+}
+</script>   
+</body>
+</html>
